@@ -4,4 +4,4 @@
 
 > 好记性不如烂笔头
 
-[GitHub](https://github.com/pangchun) [Get Started](#docsify)
+[GitHub](https://github.com/pangchun) [Get Started](#Quikstart)
