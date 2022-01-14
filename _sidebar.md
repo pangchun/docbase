@@ -1,6 +1,6 @@
 - 目录
 - nginx
-  - [nginx](/docs/Nginx/Nginx.md)
+  - [nginx](/docs/nginx/nginx.md)
 
-- 其它
-  - 其它
+- 常用命令大全
+  - [commands](/docs/commands/commands.md)
