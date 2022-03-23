@@ -1,6 +1,8 @@
 - 目录
 - nginx
   - [nginx](/docs/nginx/nginx.md)
+- seata
+  - [seata](/docs/seata/seata.md)
 - 开发
   - [1、大后端](/docs/develop/1、大后端.md)
   - [2、大前端](/docs/develop/2、大前端.md)
