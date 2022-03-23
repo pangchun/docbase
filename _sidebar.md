@@ -1,12 +1,13 @@
-- 目录
-- nginx
-  - [nginx](/docs/nginx/nginx.md)
-- seata
-  - [seata](/docs/seata/seata.md)
 - 开发
   - [1、大后端](/docs/develop/1、大后端.md)
   - [2、大前端](/docs/develop/2、大前端.md)
   - [3、开发工具篇](/docs/develop/3、开发工具篇.md)
+
+- 分布式
+  - [nginx](/docs/nginx/nginx.md)
+  - [nacos](/docs/nacos/nacos.md)
+  - [seata](/docs/seata/seata.md)
+
 - 面试
   - [1、JAVA基础](docs/interview/1、JAVA基础.md)
   - [2、集合容器专题](docs/interview/2、集合容器专题.md)
