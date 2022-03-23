@@ -23,7 +23,7 @@
 
 ![image-20210914140603540](assets/image-20210914140603540.png)
 
-<img src="assets/image-20210914140630302.png" alt="image-20210914140630302" style="zoom:86%;" />
+<img src="assets/image-20210914140630302.png" alt="image-20210914140630302" />
 
 ### 缺点
 
@@ -654,7 +654,6 @@ public class StorageServiceImpl extends ServiceImpl<StorageMapper, Storage> impl
     }
 }
 ```
-
 
 
 
