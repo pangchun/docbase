@@ -2,6 +2,8 @@
 
 # **docbase**
 
-> 好记性不如烂笔头
+> 一个开发人员的知识库，堪称葵花宝典
 
-[GitHub](https://github.com/pangchun) [Get Started](#Quikstart)
+前后端开发常用技术框架、分布式、甚至是面试题。互联网分享精神！！！
+
+[GitHub](https://github.com/pangchun) [Get Started](#Quikstart) [Docs GitHub](https://github.com/pangchun/docbase)

@@ -10,29 +10,51 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <!-- 图标路径 -->
   <link rel="shortcut icon" href="./assets/shortcut icon.svg">
-  <!-- 黑暗主题 -->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css"> -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.css"/>
+  <!-- 暗夜模式 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.css" />
+  <!-- 目录折叠 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
 </head>
 
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
+      // 设置主题颜色，docsify-dark-mode 提供的切换按钮默认白色，在白色背景下几乎看不见
+      // themeColor: "#42b983",
+      // themeColor: "#fa5e5a",
+      themeColor: "#79b8ff",
       // 网站名称
-      name: '胖椿的知识库',
+      name: 'docbase',
       // 仓库链接，对应右上角小猫图标
-      repo: 'https://github.com/pangchun/docbase',
+      repo: 'https://github.com/pangchun',
       // 导航栏
       loadNavbar: true,
       // 侧边栏
       loadSidebar: true,
       // 在侧边栏显示文章目录(点击可折叠)
       subMaxLevel: 6,
+      // set sidebar display level
+    sidebarDisplayLevel: 1, 
       // 网站封面
       coverpage: true,
       // 访问主页时，仅加载封面
       onlyCover: false,
+      // 字数统计
+      count: {
+        countable: true,
+        position: 'top',
+        margin: '10px',
+        float: 'top',
+        fontsize: '0.9em',
+        color: '#fa5e5a',
+        language: 'chinese',
+        localization: {
+          words: "",
+          minute: ""
+        },
+        isExpected: true
+      },
       //全文搜索
       search: {
         // 过期时间，单位毫秒，默认一天
@@ -42,7 +64,26 @@
         noData: '什么也没有',
         // 搜索标题的最大程级, 1 - 6
         depth: 6,
-      }
+      },
+      // 自定义暗夜模式样式
+      darkMode: {
+        dark: {
+          background: "#1c2022",
+          toggleBtnBg: "#34495e",
+          textColor: "#b4b4b4"
+        },
+        light: {
+          background: "white",
+          toggleBtnBg: "var(--theme-color)",
+          // textColor: "var(--theme-color)"
+        }
+      },
+      // 阅读进度条
+      progress: {
+        position: "top",
+        color: "var(--theme-color,#42b983)",
+        height: "3px",
+    }
     }
   </script>
   <!-- Docsify v4 -->
@@ -60,7 +101,12 @@
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
   <!-- emoji -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <!-- 暗夜模式 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.js"></script>
+  <!-- 左侧目录折叠 -->
+<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+<!-- 阅读进度条 -->
+<script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
 </body>
 
 </html>
