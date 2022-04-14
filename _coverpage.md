@@ -6,4 +6,4 @@
 
 前后端开发常用技术框架、分布式、甚至是面试题。互联网分享精神！！！
 
-[GitHub](https://github.com/pangchun) [Get Started](#Quikstart) [Docs GitHub](https://github.com/pangchun/docbase)
+[GitHub](https://github.com/pangchun) [Get Started](#快速开始) [Docs GitHub](https://github.com/pangchun/docbase)
