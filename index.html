@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <!-- 图标路径 -->
     <link rel="shortcut icon" href="./assets/shortcut icon.svg">
+    <!-- 暗夜模式 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.css"/>
     <!-- 目录折叠 -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css"/>
 </head>
@@ -63,6 +65,11 @@
             // 搜索标题的最大程级, 1 - 6
             depth: 6,
         },
+        light: {
+            background: "white",
+            toggleBtnBg: "var(--theme-color)",
+            // textColor: "var(--theme-color)"
+        },
         // 阅读进度条
         progress: {
             position: "top",
@@ -86,6 +93,8 @@
 <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 <!-- emoji -->
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+<!-- 暗夜模式 -->
+<script src="https://cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.js"></script>
 <!-- 左侧目录折叠 -->
 <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 <!-- 阅读进度条 -->

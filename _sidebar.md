@@ -7,7 +7,7 @@
   - [nginx](/docs/nginx/nginx.md)
   - [nacos](/docs/nacos/nacos.md)
   - [seata](/docs/seata/seata.md)
-- 面试
+- 面试题
   - [1、JAVA基础](docs/interview/1、JAVA基础.md)
   - [2、集合容器专题](docs/interview/2、集合容器专题.md)
   - [3、并发编程专题](docs/interview/3、并发编程专题.md)
